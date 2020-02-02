@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin:auto;
+}
+header{
+    margin: auto;
+    width: 100%;
+    padding:1px;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: black 2px solid;
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 27px 15px 15px 0;
+}
+header li{
+    display: inline;
+    position: relative;
+}
+img{
+    padding: 10px 0 15px 40px;
+    float: left;
+    width: 220px;
+}
+nav{
+    float:right;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 15px 0 15px;
+}
+nav a:hover{
+    color:darkgrey;
+
+}
+#profile{
+    padding:1px;
+    margin: 0;
+    text-align: center;
+    min-height: 520px;
+    background: url(./img/back1.jpg) no-repeat center;
+    image-orientation: inherit;
+}
+footer ul{
+    padding-left: 36%;
+
+}
+footer li{
+    display: inline;
+    position: relative;
+}
+footer img{
+    width:64px;
+    height:64px;
+}
