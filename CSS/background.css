@@ -1,0 +1,14 @@
+h4{
+    background-color: rgb(130, 60, 200);
+}
+body{
+    background: url(https://bgcinnovadesign.com.au/wp-content/uploads/2019/04/BGC-Fibre-Cement-Innova-Montage-Profile-Woodgrain-Grey-Oak.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: dashed; */
+    border: 5px solid purple;
+}
