@@ -1,0 +1,40 @@
+/* Element */
+li{
+    border: 2px solid red;
+}
+/* Id */
+#special{
+    background-color: orange;
+}
+/* Class */
+.completed{
+    text-decoration: line-through;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Descendent */
+li a{
+    color: red;
+}
+
+/* adjacent */
+h1+ul{
+    border: 4px solid orange;
+}
+
+/* Attribute */
+a[href="http://google.com"]{
+    background: blue;
+}
+
+/* nth of type */
+/* ul:nth-of-type(3){
+    background: purple;
+} */
+
+li:nth-of-type(3){
+    background: gray;
+}
